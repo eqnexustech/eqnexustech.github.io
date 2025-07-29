@@ -11,60 +11,60 @@
 <body class="bg-slate-50">
 
     <nav class="bg-white shadow-md py-4 sticky top-0 z-50">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <a href="#inicio" class="flex items-center">
-                <img src="Imagenes/NexusTech.png" alt="EQ Nexus Tech Logo" class="h-8 w-8 object-contain ml-0 sm:ml-0">
-                <span class="text-lg font-semibold text-slate-500 ml-1 whitespace-nowrap">EQ | Nexus Tech</span>
-            </a>
-            <div class="hidden md:flex space-x-6 flex-grow justify-center items-center">
-                <a href="#inicio" class="nav-link">Inicio</a>
-                <a href="#acerca-de" class="nav-link">Acerca de Mí</a>
-                <a href="#valores" class="block nav-link">Valores</a>
-                <a href="#servicios" class="nav-link">Servicios</a>
-                <a href="#enfoque" class="nav-link">Mi Enfoque</a>
-
-                <div class="relative group">
-                    <button id="dropdown-button-profile" class="nav-link inline-flex items-center">
-                        Ingeniería de Software y las TI
-                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div id="dropdown-menu-profile" class="absolute hidden bg-white shadow-lg rounded-md mt-2 w-64 py-2 z-20">
-                        <a href="#experiencia" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Experiencia</a>
-                        <a href="#habilidades" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Habilidades</a>
-                    </div>
-                </div>
-
-                <a href="#mi-contenido" class="nav-link">Mi Contenido & Actividad</a>
-                <a href="#contacto" class="nav-link">Contacto</a>
-            </div>
-            <div class="md:hidden">
-                <button id="menu-button" class="text-slate-700 focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                </button>
-            </div>
-        </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-white mt-2 px-4 pb-4 text-center">
-            <a href="#inicio" class="block nav-link">Inicio</a>
-            <a href="#acerca-de" class="block nav-link">Acerca de Mí</a>
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="#inicio" class="flex items-center">
+            <img src="Imagenes/NexusTech.png" alt="EQ Nexus Tech Logo" class="h-8 w-8 object-contain ml-0 sm:ml-0">
+            <span class="text-lg font-semibold text-slate-500 mr-6 whitespace-nowrap">EQ | Nexus Tech</span>
+        </a>
+        <div class="hidden md:flex space-x-4 justify-center items-center ml-auto mr-auto">
+            <a href="#inicio" class="nav-link">Inicio</a>
+            <a href="#acerca-de" class="nav-link">Acerca de Mí</a>
             <a href="#valores" class="block nav-link">Valores</a>
-            <a href="#servicios" class="block nav-link">Servicios</a>
-            <a href="#enfoque" class="block nav-link">Mi Enfoque</a>
-            
-            <div class="relative w-full text-center">
-                <button id="dropdown-button-mobile-profile" class="nav-link w-full inline-flex justify-center items-center">
+            <a href="#servicios" class="nav-link">Servicios</a>
+            <a href="#enfoque" class="nav-link">Mi Enfoque</a>
+
+            <div class="relative group">
+                <button id="dropdown-button-profile" class="nav-link inline-flex items-center">
                     Ingeniería de Software y las TI
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
-                <div id="dropdown-menu-mobile-profile" class="hidden bg-white shadow-lg rounded-md mt-2 w-full py-2">
+                <div id="dropdown-menu-profile" class="absolute hidden bg-white shadow-lg rounded-md mt-2 w-64 py-2 z-20">
                     <a href="#experiencia" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Experiencia</a>
                     <a href="#habilidades" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Habilidades</a>
                 </div>
             </div>
 
-            <a href="#mi-contenido" class="block nav-link">Mi Contenido & Actividad</a>
-            <a href="#contacto" class="block nav-link">Contacto</a>
+            <a href="#mi-contenido" class="nav-link">Mi Contenido & Actividad</a>
+            <a href="#contacto" class="nav-link">Contacto</a>
         </div>
-    </nav>
+        <div class="md:hidden">
+            <button id="menu-button" class="text-slate-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white mt-2 px-4 pb-4 text-center">
+        <a href="#inicio" class="block nav-link">Inicio</a>
+        <a href="#acerca-de" class="block nav-link">Acerca de Mí</a>
+        <a href="#valores" class="block nav-link">Valores</a>
+        <a href="#servicios" class="block nav-link">Servicios</a>
+        <a href="#enfoque" class="block nav-link">Mi Enfoque</a>
+
+        <div class="relative w-full text-center">
+            <button id="dropdown-button-mobile-profile" class="nav-link w-full inline-flex justify-center items-center">
+                Ingeniería de Software y las TI
+                <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div id="dropdown-menu-mobile-profile" class="hidden bg-white shadow-lg rounded-md mt-2 w-full py-2">
+                <a href="#experiencia" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Experiencia</a>
+                <a href="#habilidades" class="block px-4 py-2 text-slate-700 hover:bg-gray-100 nav-link-dropdown">Habilidades</a>
+            </div>
+        </div>
+
+        <a href="#mi-contenido" class="block nav-link">Mi Contenido & Actividad</a>
+        <a href="#contacto" class="block nav-link">Contacto</a>
+    </div>
+</nav>
 
 <section id="inicio" class="relative bg-gradient-to-r from-blue-700 to-indigo-900 text-white py-32 md:py-48 overflow-hidden">
     <div class="absolute inset-0 z-0 opacity-10">
